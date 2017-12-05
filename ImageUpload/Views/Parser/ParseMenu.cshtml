@@ -1,0 +1,9 @@
+﻿
+@{
+    ViewBag.Title = "ParseMenu";
+}
+
+<h2>ParseMenu for [@ViewBag.name]</h2>
+
+@Html.ActionLink("See File Contents", "ViewContents", new { s = ViewBag.fileContents })
+@Html.ActionLink("See Parsed String", "Parse", new { s = ViewBag.fileContents })

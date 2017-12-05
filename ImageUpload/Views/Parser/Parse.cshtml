@@ -1,0 +1,17 @@
+﻿
+@{
+    ViewBag.Title = "Parse";
+}
+
+<h2>Parse [@ViewBag.name]</h2>
+
+<br />
+<br />
+
+@{ 
+    for (int i = 0; i < ViewBag.strArray.Length; i++)
+    {
+        <span>Entry @(i + 1): @ViewBag.strArray[i]</span>
+        <br />
+    }
+}

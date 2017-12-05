@@ -1,0 +1,4 @@
+ascii test
+endline test
+c, o, m, m, a
+t	a	b
